@@ -14,7 +14,7 @@ export const cocTemplateCertificate: CocTemplateCertificate = {
   },
   $template: {
     name: "COC",
-    type: "EMBEDDED_RENDERER",
+    type: "v2.TemplateType.EmbeddedRenderer",
     url: "http://localhost:3000"
   }
 };
