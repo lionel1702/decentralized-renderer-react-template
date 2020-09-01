@@ -1,6 +1,6 @@
-import { Document } from "@govtechsg/decentralized-renderer-react-components";
+import { v2 } from "@govtechsg/decentralized-renderer-react-components";
 
-export interface CocTemplateCertificate extends Document {
+export interface CocTemplateCertificate extends v2.OpenAttestationDocument {
   name: string;
   recipient: {
     name: string;
